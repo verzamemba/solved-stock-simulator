@@ -1,0 +1,5 @@
+Download Link: https://assignmentchef.com/product/solved-stock-simulator
+<br>
+Suppose you buy 100 shares of a stock at $12 per share, then another 100 at $10 per share, then yousell 150 shares at $15. You have to pay taxes on the gain, but exactly what is the gain? In the United States, the FIFO rule holds: You first sell all shares of the first batch for a proﬁt of $300, then 50 of the shares from the second batch, for a profit of $250, yielding a total proﬁt of 5550. Write a program that can make these calculations for arbitrary purchases and sales of shares in a single company.
+
+The user enters commands buy symbol quantity price, sell symbol quantity price (which causes the gain to bedisplayed), and quit. Hint: Keep a Map&lt;String, Queue&lt;Block&gt;&gt; that manages a separate queue for eachstock symbol. Use the included templates for the program in the zip file Assignment10.zip. You do not need to add any iadditional methods other than what are included. Tnere is a sample of an input script so you can seehow I may test your program. Be sure to fully test the program before submitting it. I should not be ableto crash it.
